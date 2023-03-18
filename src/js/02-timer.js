@@ -50,6 +50,8 @@ const hoursEl = document.querySelector('[data-hours]');
 const minutesEl = document.querySelector('[data-minutes]');
 const secondsEl = document.querySelector('[data-seconds]');
 
+btnStart.disabled = true;
+
 const options = {
   enableTime: true,
   time_24hr: true,
